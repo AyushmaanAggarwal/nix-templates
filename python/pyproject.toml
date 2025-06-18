@@ -1,0 +1,28 @@
+[project]
+name = "sample-project"
+version = "0.1.0"
+description = "sample-description"
+readme = "README.md"
+
+# define any Python dependencies
+requires-python = ">= 3.14"
+dependencies = [
+  # Computation Packages
+  "numpy"
+  "scipy"
+  "sympy"
+
+  # Data Structure Packages
+  "astropy"
+  "pandas"
+  "uncertainties"
+
+  # Plotting
+  "plotly"
+  "matplotlib"
+  "seaborn"
+
+  # Helper Packages
+  "tqdm"
+  "requests"
+]
