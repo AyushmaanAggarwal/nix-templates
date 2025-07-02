@@ -8,21 +8,21 @@ readme = "README.md"
 requires-python = ">= 3.14"
 dependencies = [
   # Computation Packages
-  "numpy"
-  "scipy"
-  "sympy"
+  "numpy",
+  "scipy",
+  "sympy",
 
   # Data Structure Packages
-  "astropy"
-  "pandas"
-  "uncertainties"
+  "astropy",
+  "pandas",
+  "uncertainties",
 
   # Plotting
-  "plotly"
-  "matplotlib"
-  "seaborn"
+  "plotly",
+  "matplotlib",
+  "seaborn",
 
   # Helper Packages
-  "tqdm"
+  "tqdm",
   "requests"
 ]
